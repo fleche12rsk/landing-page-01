@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nome da sua empresa — Especializado em terapia capilar, longevidade e beleza dos cabelos. A essência da vida corre nos fios." />
+  <title>Nome da sua empresa | Terapia Capilar & Autocuidado</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BeautySalon",
+      "@id": "#",
+      "name": "Nome da sua empresa",
+      "alternateName": "Nome da sua empresa - Terapia Capilar",
+      "description": "Espaço especializado em terapia capilar, longevidade e beleza dos cabelos. Procedimentos personalizados de hidratação, nutrição, coloração, corte e autocuidado.",
+      "url": "#",
+      "logo": "#",
+      "image": "#",
+      "telephone": "+55-49-99999-9999",
+      "priceRange": "$$",
+      "currenciesAccepted": "#",
+      "paymentAccepted": "#",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "#",
+        "addressLocality": "#",
+        "addressRegion": "#",
+        "postalCode": "#",
+        "addressCountry": "#"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "#",
+        "longitude": "#"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ],
+      "sameAs": [
+        "#",
+        "#",
+        "#"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "#",
+        "bestRating": "#",
+        "worstRating": "#",
+        "ratingCount": "#"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "#",
+      "url": "#",
+      "name": "Nome da sua empresa",
+      "inLanguage": "pt-BR",
+      "publisher": { "@id": "#link-do-seu-site" }
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+
+  <!-- ── HEADER ──────────────────────────────────────── -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="container">
+      <a href="#" class="logo" aria-label="Nome da sua empresa - Página inicial">
+        <span class="logo-name">Nome da sua empresa</span>
+        <span class="logo-tagline">Terapia Capilar & Autocuidado</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="https://wa.me/554999999999" target="_blank" rel="noopener" class="nav-cta">Agendar</a></li>
+        </ul>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Menu móvel">
+      <a href="#sobre" onclick="closeMobileNav()">Sobre</a>
+      <a href="#servicos" onclick="closeMobileNav()">Serviços</a>
+      <a href="#depoimentos" onclick="closeMobileNav()">Depoimentos</a>
+      <a href="#contato" onclick="closeMobileNav()">Contato</a>
+      <a href="https://wa.me/554999999999" target="_blank" rel="noopener">📲 Agendar pelo WhatsApp</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ── HERO ────────────────────────────────────────── -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <svg viewBox="0 0 1440 900" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <circle cx="200" cy="200" r="180" stroke="#C4856A" stroke-width="0.5"/>
+          <circle cx="200" cy="200" r="240" stroke="#C4856A" stroke-width="0.3"/>
+          <circle cx="1300" cy="700" r="140" stroke="#C4856A" stroke-width="0.5"/>
+          <path d="M100,600 Q300,400 500,500 T900,400" stroke="#C4856A" stroke-width="0.5" fill="none"/>
+          <path d="M400,100 Q600,300 800,200 T1200,300" stroke="#C4856A" stroke-width="0.4" fill="none"/>
+          <!-- Leaf shapes -->
+          <ellipse cx="700" cy="150" rx="30" ry="60" transform="rotate(-30 700 150)" stroke="#C4856A" stroke-width="0.4" fill="none"/>
+          <ellipse cx="750" cy="120" rx="20" ry="45" transform="rotate(20 750 120)" stroke="#C4856A" stroke-width="0.3" fill="none"/>
+          <ellipse cx="1100" cy="500" rx="25" ry="55" transform="rotate(-50 1100 500)" stroke="#C4856A" stroke-width="0.4" fill="none"/>
+        </svg>
+      </div>
+
+      <div class="hero-circle" aria-hidden="true"></div>
+      <div class="hero-ring" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <p class="hero-eyebrow">Nome da sua empresa</p>
+
+          <h1 class="hero-title" id="hero-title">
+            <span class="line-break">A essência da</span>
+            <em>vida corre</em>
+            <span class="line-break">nos seus fios</span>
+          </h1>
+
+          <p class="hero-desc">
+            Especialistas em terapia capilar, longevidade e beleza dos cabelos.
+            Um espaço criado para você se cuidar, se sentir e se transformar com amor.
+          </p>
+
+          <div class="hero-actions">
+            <a href="https://wa.me/554999999999" target="_blank" rel="noopener" class="btn-primary">
+              📲 Agendar agora
+            </a>
+            <a href="#servicos" class="btn-outline">Ver serviços →</a>
+          </div>
+
+          <div class="hero-stats" aria-label="Destaques do espaço">
+            <div class="stat-item">
+              <div class="stat-number">Xk+</div>
+              <div class="stat-label">Clientes atendidas</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">X%</div>
+              <div class="stat-label">Tratamentos naturais</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">X★</div>
+              <div class="stat-label">Avaliação média</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-photo-frame">
+            <div class="hero-photo">
+              <div class="hero-photo-placeholder">
+                🌿<br>
+                <em>Nome da sua empresa</em>
+              </div>
+            </div>
+
+            <div class="floating-badge" aria-hidden="true">
+              <span class="badge-icon">🍃</span>
+              <span class="badge-text">
+                <strong>Terapia Capilar</strong>
+                Especializada
+              </span>
+            </div>
+
+            <div class="floating-badge-2" aria-hidden="true">
+              <div class="badge-2-number">+Xk</div>
+              <div class="badge-2-text">Seguidores</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ── SOBRE ────────────────────────────────────────── -->
+    <section class="about" id="sobre" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about-image-wrap reveal">
+          <div class="about-image-grid" aria-hidden="true">
+            <div class="about-img-card">
+              <div class="about-img-inner">🌸</div>
+            </div>
+            <div class="about-img-card">
+              <div class="about-img-inner">✂️</div>
+            </div>
+            <div class="about-img-card">
+              <div class="about-img-inner">💆‍♀️</div>
+            </div>
+          </div>
+          <div class="about-experience-tag" aria-label="Anos de experiência">
+            <span class="exp-num">+</span>
+            <span class="exp-label">anos de<br>experiência</span>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <p class="section-tag reveal reveal-delay-1">Nossa história</p>
+          <h2 class="section-title reveal reveal-delay-2" id="about-title">
+            Mais do que beleza,<br>
+            <em>um ritual de cuidado</em>
+          </h2>
+
+          <div class="reveal reveal-delay-3">
+            <p>
+              Sua descrição da empresa.
+            </p>
+            <p>
+              Sua descrição da empresa.
+            </p>
+          </div>
+
+          <div class="about-pillars reveal reveal-delay-4" role="list">
+            <div class="pillar" role="listitem">
+              <div class="pillar-dot" aria-hidden="true"></div>
+              <span class="pillar-text">Diagnóstico capilar individualizado</span>
+            </div>
+            <div class="pillar" role="listitem">
+              <div class="pillar-dot" aria-hidden="true"></div>
+              <span class="pillar-text">Protocolos de longevidade capilar</span>
+            </div>
+            <div class="pillar" role="listitem">
+              <div class="pillar-dot" aria-hidden="true"></div>
+              <span class="pillar-text">Ambiente acolhedor e exclusivo</span>
+            </div>
+            <div class="pillar" role="listitem">
+              <div class="pillar-dot" aria-hidden="true"></div>
+              <span class="pillar-text">Produtos de alta performance</span>
+            </div>
+          </div>
+
+          <div class="reveal reveal-delay-5" style="margin-top:2.4rem;">
+            <a href="#contato" class="btn-primary">Conhecer o espaço →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SERVIÇOS ─────────────────────────────────────── -->
+    <section class="services" id="servicos" aria-labelledby="services-title">
+      <div class="container">
+        <header class="services-header">
+          <div>
+            <p class="section-tag reveal">O que oferecemos</p>
+            <h2 class="section-title reveal reveal-delay-1" id="services-title">
+              Nossos <em>serviços</em>
+            </h2>
+          </div>
+          <a href="https://wa.me/554999999999" target="_blank" rel="noopener" class="btn-outline reveal reveal-delay-2">
+            Ver todos os serviços →
+          </a>
+        </header>
+
+        <div class="services-grid" role="list">
+
+          <article class="service-card reveal reveal-delay-1" role="listitem">
+            <div class="service-icon" aria-hidden="true">💎</div>
+            <h3 class="service-name">Terapia Capilar</h3>
+            <p class="service-desc">
+              Protocolo completo focado na saúde, restauração e longevidade dos seus fios, com diagnóstico personalizado.
+            </p>
+            <a href="https://wa.me/55499999999999" target="_blank" rel="noopener" class="service-link" aria-label="Agendar Terapia Capilar">
+              Agendar →
+            </a>
+          </article>
+
+          <article class="service-card reveal reveal-delay-2" role="listitem">
+            <div class="service-icon" aria-hidden="true">💧</div>
+            <h3 class="service-name">Hidratação & Nutrição</h3>
+            <p class="service-desc">
+              Tratamentos intensivos que devolvem vitalidade, brilho e maciez aos cabelos ressecados e danificados.
+            </p>
+            <a href="https://wa.me/55499999999999" target="_blank" rel="noopener" class="service-link" aria-label="Agendar Hidratação">
+              Agendar →
+            </a>
+          </article>
+
+          <article class="service-card reveal reveal-delay-3" role="listitem">
+            <div class="service-icon" aria-hidden="true">✂️</div>
+            <h3 class="service-name">Corte & Finalização</h3>
+            <p class="service-desc">
+              Cortes que valorizam seu rosto e estilo, com finalização profissional que realça a beleza natural.
+            </p>
+            <a href="https://wa.me/55499999999999" target="_blank" rel="noopener" class="service-link" aria-label="Agendar Corte">
+              Agendar →
+            </a>
+          </article>
+
+          <article class="service-card reveal reveal-delay-4" role="listitem">
+            <div class="service-icon" aria-hidden="true">🎨</div>
+            <h3 class="service-name">Coloração & Mechas</h3>
+            <p class="service-desc">
+              Técnicas modernas de coloração que preservam a saúde dos fios enquanto entregam cor vibrante e duradoura.
+            </p>
+            <a href="https://wa.me/55499999999999" target="_blank" rel="noopener" class="service-link" aria-label="Agendar Coloração">
+              Agendar →
+            </a>
+          </article>
+
+          <article class="service-card reveal reveal-delay-5" role="listitem">
+            <div class="service-icon" aria-hidden="true">📋</div>
+            <h3 class="service-name">Cronograma Capilar</h3>
+            <p class="service-desc">
+              Planejamento estratégico de tratamentos para transformar progressivamente seu cabelo com resultados reais.
+            </p>
+            <a href="https://wa.me/55499999999999" target="_blank" rel="noopener" class="service-link" aria-label="Montar Cronograma">
+              Agendar →
+            </a>
+          </article>
+
+          <article class="service-card reveal reveal-delay-6" role="listitem">
+            <div class="service-icon" aria-hidden="true">🌿</div>
+            <h3 class="service-name">Tratamentos Especiais</h3>
+            <p class="service-desc">
+              Rituais exclusivos como cauterização, selagem, botox capilar e reconstrução molecular dos fios.
+            </p>
+            <a href="https://wa.me/55499999999999" target="_blank" rel="noopener" class="service-link" aria-label="Ver Tratamentos Especiais">
+              Agendar →
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROCESSO ─────────────────────────────────────── -->
+    <section class="process" aria-labelledby="process-title">
+      <div class="container">
+        <p class="section-tag reveal" style="justify-content:center;">Como funciona</p>
+        <h2 class="section-title reveal reveal-delay-1" id="process-title">
+          Da consulta ao <em>resultado</em>
+        </h2>
+        <p class="process-subtitle reveal reveal-delay-2">
+          Um processo pensado para oferecer a melhor experiência, do primeiro contato ao cuidado pós-serviço.
+        </p>
+
+        <div class="process-steps" role="list">
+          <div class="process-step reveal reveal-delay-1" role="listitem">
+            <div class="step-number" aria-hidden="true">01</div>
+            <h3 class="step-title">Agendamento</h3>
+            <p class="step-desc">Entre em contato pelo WhatsApp ou Instagram para marcar seu horário.</p>
+          </div>
+          <div class="process-step reveal reveal-delay-2" role="listitem">
+            <div class="step-number" aria-hidden="true">02</div>
+            <h3 class="step-title">Diagnóstico</h3>
+            <p class="step-desc">Análise completa do seu cabelo para entender as necessidades dos seus fios.</p>
+          </div>
+          <div class="process-step reveal reveal-delay-3" role="listitem">
+            <div class="step-number" aria-hidden="true">03</div>
+            <h3 class="step-title">Tratamento</h3>
+            <p class="step-desc">Execução do protocolo personalizado com produtos e técnicas de excelência.</p>
+          </div>
+          <div class="process-step reveal reveal-delay-4" role="listitem">
+            <div class="step-number" aria-hidden="true">04</div>
+            <h3 class="step-title">Resultado</h3>
+            <p class="step-desc">Cabelo transformado e orientações para manutenção em casa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── DEPOIMENTOS ──────────────────────────────────── -->
+    <section class="testimonials" id="depoimentos" aria-labelledby="testimonials-title">
+      <div class="container">
+        <header class="testimonials-header">
+          <p class="section-tag reveal" style="justify-content:center;">Depoimentos</p>
+          <h2 class="section-title reveal reveal-delay-1" id="testimonials-title">
+            O que nossas clientes<br>
+            <em>dizem sobre nós</em>
+          </h2>
+        </header>
+
+        <div class="testimonials-track" role="list">
+          <article class="testimonial-card reveal reveal-delay-1" role="listitem">
+            <div class="testimonial-quote" aria-hidden="true">"</div>
+            <p class="testimonial-text">
+              Meu cabelo nunca esteve tão saudável e bonito. O diagnóstico foi incrível, me ajudou a entender o que meu cabelo precisava de verdade. Super indico!
+            </p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">A</div>
+              <div class="author-info">
+                <p class="author-name">Nome da Cliente</p>
+                <p class="author-stars" aria-label="5 estrelas">★★★★★</p>
+              </div>
+            </footer>
+          </article>
+
+          <article class="testimonial-card reveal reveal-delay-2" role="listitem">
+            <div class="testimonial-quote" aria-hidden="true">"</div>
+            <p class="testimonial-text">
+              Atendimento impecável e resultado surpreendente! Cheguei com o cabelo destruído e saí com ele completamente restaurado. A "Nome da sua empresa" tem um cuidado especial com cada cliente.
+            </p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">M</div>
+              <div class="author-info">
+                <p class="author-name">Nome da Cliente  </p>
+                <p class="author-stars" aria-label="5 estrelas">★★★★★</p>
+              </div>
+            </footer>
+          </article>
+
+          <article class="testimonial-card reveal reveal-delay-3" role="listitem">
+            <div class="testimonial-quote" aria-hidden="true">"</div>
+            <p class="testimonial-text">
+              Ambiente super aconchegante e profissionais que realmente entendem do assunto. Já fiz o cronograma capilar e meu cabelo nunca cresceu tão rápido e saudável!
+            </p>
+            <footer class="testimonial-author">
+              <div class="author-avatar" aria-hidden="true">J</div>
+              <div class="author-info">
+                <p class="author-name">Nome da Cliente</p>
+                <p class="author-stars" aria-label="5 estrelas">★★★★★</p>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── INSTAGRAM ────────────────────────────────────── -->
+    <section class="instagram-section" aria-labelledby="instagram-title">
+      <div class="container">
+        <p class="section-tag reveal" style="justify-content:center;">Siga nas redes</p>
+        <h2 class="section-title reveal reveal-delay-1" id="instagram-title">
+          Nossa galeria no <em>Instagram</em>
+        </h2>
+        <p class="instagram-desc reveal reveal-delay-2">
+          Acompanhe as transformações, dicas e novidades do "Nome da sua empresa" diariamente.
+        </p>
+
+        <div class="instagram-grid reveal reveal-delay-2" aria-label="Prévia do Instagram">
+          <div class="insta-cell" aria-hidden="true">💆‍♀️</div>
+          <div class="insta-cell" aria-hidden="true">🌿</div>
+          <div class="insta-cell" aria-hidden="true">✨</div>
+          <div class="insta-cell" aria-hidden="true">🌸</div>
+          <div class="insta-cell" aria-hidden="true">💇‍♀️</div>
+          <div class="insta-cell" aria-hidden="true">🍃</div>
+        </div>
+
+        <a href="#"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="btn-instagram reveal reveal-delay-3"
+           aria-label="Ver nosso Instagram @nomeusuario">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+          </svg>
+          @nomeusuario
+        </a>
+      </div>
+    </section>
+
+    <!-- ── CONTATO ───────────────────────────────────────── -->
+    <section class="contact" id="contato" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-info">
+          <p class="section-tag reveal">Fale conosco</p>
+          <h2 class="section-title reveal reveal-delay-1" id="contact-title">
+            Vamos cuidar<br>
+            <em>juntas dos seus fios</em>
+          </h2>
+          <p class="reveal reveal-delay-2">
+            Entre em contato para agendar ou tirar dúvidas. Estamos prontas para te receber com todo o carinho!
+          </p>
+
+          <address class="contact-items reveal reveal-delay-3">
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">📍</div>
+              <div class="contact-item-text">
+                <strong>Localização</strong>
+                <span>
+                  <a href="https://maps.app.goo.gl/" target="_blank" rel="noopener">
+                    Ver no Google Maps
+                  </a>
+                </span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">📱</div>
+              <div class="contact-item-text">
+                <strong>WhatsApp</strong>
+                <span>
+                  <a href="https://wa.me/5549999999999" target="_blank" rel="noopener">
+                    Enviar mensagem
+                  </a>
+                </span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">📸</div>
+              <div class="contact-item-text">
+                <strong>Instagram</strong>
+                <span>
+                  <a href="https://www.instagram.com/nomeusuario/" target="_blank" rel="noopener">
+                    @nomeusuario
+                  </a>
+                </span>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon" aria-hidden="true">🕐</div>
+              <div class="contact-item-text">
+                <strong>Horário de atendimento</strong>
+                <span>Seg–Sex: 9h às 18h &nbsp;</span>
+              </div>
+            </div>
+          </address>
+        </div>
+
+        <div class="booking-form-wrap reveal reveal-delay-2">
+          <div id="form-wrapper">
+            <h3 class="form-title">Solicite um agendamento</h3>
+            <p class="form-subtitle">Preencha abaixo e entraremos em contato!</p>
+
+            <form id="booking-form" novalidate aria-label="Formulário de agendamento">
+              <div class="form-group">
+                <label for="name">Nome completo</label>
+                <input type="text" id="name" name="name" placeholder="Seu nome" required autocomplete="name" />
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone">WhatsApp</label>
+                  <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000" required autocomplete="tel" />
+                </div>
+                <div class="form-group">
+                  <label for="service">Serviço desejado</label>
+                  <select id="service" name="service" required aria-required="true">
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="terapia">Terapia Capilar</option>
+                    <option value="hidratação">Hidratação & Nutrição</option>
+                    <option value="corte">Corte & Finalização</option>
+                    <option value="coloração">Coloração & Mechas</option>
+                    <option value="cronograma">Cronograma Capilar</option>
+                    <option value="especial">Tratamentos Especiais</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Mensagem (opcional)</label>
+                <textarea id="message" name="message" placeholder="Conte um pouco sobre seu cabelo ou dúvidas..."></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit" aria-label="Enviar solicitação de agendamento">
+                Solicitar agendamento ✦
+              </button>
+            </form>
+          </div>
+
+          <div class="form-success" id="form-success" role="alert" aria-live="polite">
+            <div class="success-icon" aria-hidden="true">🌸</div>
+            <h3 class="success-title">Recebemos sua mensagem!</h3>
+            <p class="success-msg">Em breve entraremos em contato pelo seu WhatsApp para confirmar seu horário. Obrigada!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── MAP ──────────────────────────────────────────── -->
+    <section class="map-section" aria-label="Mapa de localização">
+      <iframe
+        src="https://maps.google.com/"
+        loading="lazy"
+        title="Localização da sua empresa no Google Maps"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen
+      ></iframe>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ────────────────────────────────────────── -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <span class="logo-name">Nome da sua empresa</span>
+            <span class="logo-tagline">Terapia Capilar & Autocuidado</span>
+          </div>
+          <p>A essência da vida corre nos fios. 🍃<br>
+          Cuidando da beleza e saúde dos seus cabelos com dedicação e amor.</p>
+          <nav class="footer-social" aria-label="Redes sociais">
+            <a href="#linkdoinstagram" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://wa.me/5549999999999" target="_blank" rel="noopener" class="social-link" aria-label="WhatsApp">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="https://linktr.ee/nomeusuario" target="_blank" rel="noopener" class="social-link" aria-label="Linktree">🌿</a>
+          </nav>
+        </div>
+
+        <nav class="footer-col" aria-label="Links rápidos">
+          <p class="footer-col-title">Links rápidos</p>
+          <ul>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-label="Serviços">
+          <p class="footer-col-title">Serviços</p>
+          <ul>
+            <li><a href="#servicos">Terapia Capilar</a></li>
+            <li><a href="#servicos">Hidratação</a></li>
+            <li><a href="#servicos">Corte & Finalização</a></li>
+            <li><a href="#servicos">Coloração</a></li>
+            <li><a href="#servicos">Cronograma</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-col">
+          <p class="footer-col-title">Agendamento</p>
+          <ul>
+            <li><a href="https://wa.me/5549999999999" target="_blank" rel="noopener">WhatsApp</a></li>
+            <li><a href="https://www.instagram.com/nomeusuario/" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://maps.app.goo.gl/" target="_blank" rel="noopener">Como chegar</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 <a href="https://micio.dev/" target="_blank">Mauricio Renato Sarda Filho</a>. Todos os direitos reservados.</p>
+        <p>Feito com 🌸 para você</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── WHATSAPP FAB ───────────────────────────────────── -->
+  <a href="https://wa.me/55499999999999"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="whatsapp-fab"
+     aria-label="Fale conosco pelo WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- ── JAVASCRIPT ─────────────────────────────────────── -->
+  <script src="script.js"></script>
+
+</body>
+</html>
